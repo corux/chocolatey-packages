@@ -18,6 +18,7 @@ This window can be triggered by a hotkey, holding right-click, a special trigger
     <tags>arsclip clipboard</tags>
     <licenseUrl>http://www.joejoesoft.com/vcms/97/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/corux/chocolatey-packages/64b3613be4ef68204d4f65b599ba9bb4ef8daa86/icons/arsclip.png</iconUrl>
     <dependencies>
       <dependency id="chocolatey" version="0.9.10-beta" />
     </dependencies>
