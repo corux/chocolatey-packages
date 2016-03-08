@@ -3,8 +3,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>arsclip</id>
-    <title>ArsClip (Install)</title>
-    <version>5.07-prerelease</version>
+    <title>ArsClip</title>
+    <version>5.07-prerelease-20160308</version>
     <authors>joejoesoft</authors>
     <owners>corux</owners>
     <summary>ArsClip is a freeware "clipboard manager" utility.</summary>
