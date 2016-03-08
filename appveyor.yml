@@ -1,0 +1,7 @@
+test_script:
+  - ps: dir -recurse -include *.nuspec | %{choco pack $_.FullName}
+
+artifacts:
+  - path: '**\*.nupkg'
+  
+build: off
