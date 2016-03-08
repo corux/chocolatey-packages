@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
@@ -15,10 +15,10 @@ This window can be triggered by a hotkey, holding right-click, a special trigger
     </description>
     <projectUrl>http://www.joejoesoft.com/vcms/97/</projectUrl>
     <packageSourceUrl>https://github.com/corux/chocolatey-packages</packageSourceUrl>
-    <tags>arsclip clipboard</tags>
-    <licenseUrl>http://www.joejoesoft.com/vcms/97/</licenseUrl>
+    <tags>arsclip admin clipboard</tags>
+    <releaseNotes>http://www.joejoesoft.com/vcms/97/</releaseNotes>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/corux/chocolatey-packages/64b3613be4ef68204d4f65b599ba9bb4ef8daa86/icons/arsclip.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/corux/chocolatey-packages/4bc9497f5c382434c7a47f2cbb9c33be8e8d1565/icons/arsclip.png</iconUrl>
     <dependencies>
       <dependency id="chocolatey" version="0.9.10-beta" />
     </dependencies>
