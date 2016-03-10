@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>strokesplus</id>
+    <title>StrokesPlus</title>
+    <version>2.8.6.3</version>
+    <authors>Rob Yapchanyk</authors>
+    <owners>corux</owners>
+    <summary>StrokesPlus is a completely free mouse gesture recognition utility</summary>
+    <description>StrokesPlus is a completely free mouse gesture recognition utility for Windows which allows you to create powerful mouse gestures that save you time.
+With rocker support, modifiers, and the robust Lua engine built right in, there's virtually no limit to what you can automate.
+
+Features:
+* Native code; no frameworks or runtime dependencies (uses very little RAM)
+* Built-in Lua processor
+* Endless gesture and modifier combinations
+* Granular control over program settings and actions
+* Many time-saving functions exposed to the Lua engine
+* Create global hotkeys for actions without using the mouse
+    </description>
+    <projectUrl>http://www.strokesplus.com/</projectUrl>
+    <packageSourceUrl>https://github.com/corux/chocolatey-packages</packageSourceUrl>
+    <docsUrl>http://www.strokesplus.com/help/</docsUrl>
+    <tags>strokesplus mouse gestures</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/corux/chocolatey-packages/5580bb1b247dd6f01bcf4a61ef37614c5dfc4057/icons/strokesplus.png</iconUrl>
+    <releaseNotes>http://www.strokesplus.com/changelog/</releaseNotes>
+    <dependencies>
+      <dependency id="strokesplus.portable" version="[2.8.6.3]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
