@@ -8,5 +8,5 @@ $silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 # Resolve download link
 $url = (Invoke-WebRequest -Uri $url).ParsedHtml.querySelector(".content a").href
 
-Install-ChocolateyZipPackage $packageName $url $tempDir -Checksum $checksum -ChecksumType 'sha256'
-Install-ChocolateyInstallPackage $packageName 'exe' $silentArgs $fileLocation
+Install-ChocolateyZipPackage -PackageName $packageName -Url $url -UnzipLocation $tempDir -Checksum $checksum -ChecksumType 'sha256'
+Install-ChocolateyInstallPackage -PackageName $packageName -FileType 'exe' -SilentArgs $silentArgs -File $fileLocation
