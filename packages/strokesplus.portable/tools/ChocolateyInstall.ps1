@@ -7,7 +7,7 @@ $checksum64  = '55917a628d49c987550450b6ca0fb7429541d5ffa809b1815f66dae4925d95c3
 $zipFolder   = if (Get-ProcessorBits 32) { 'StrokesPlus_x86' } else { 'StrokesPlus_x64' }
 $rmZipFolder = "${zipFolder}_Signed"
 
-Install-ChocolateyZipPackage $packageName $url $toolsDir $url64 -Checksum $checksum -ChecksumType 'sha256' -Checksum64 $checksum64 -ChecksumType64 'sha256'
+Install-ChocolateyZipPackage -PackageName $packageName -Url $url -UnzipLocation $toolsDir -Url64bit $url64 -Checksum $checksum -ChecksumType 'sha256' -Checksum64 $checksum64 -ChecksumType64 'sha256'
 Remove-Item (Join-Path $toolsDir $rmZipFolder) -Force -Recurse
 
 # copy user configuration to current user's %AppData% folder.
