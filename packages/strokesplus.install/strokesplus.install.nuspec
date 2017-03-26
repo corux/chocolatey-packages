@@ -22,7 +22,7 @@ Features:
     <projectUrl>http://www.strokesplus.com/</projectUrl>
     <packageSourceUrl>https://github.com/corux/chocolatey-packages</packageSourceUrl>
     <docsUrl>http://www.strokesplus.com/help/</docsUrl>
-    <tags>strokesplus mouse gestures admin</tags>
+    <tags>strokesplus mouse gestures</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/corux/chocolatey-packages/5580bb1b247dd6f01bcf4a61ef37614c5dfc4057/icons/strokesplus.png</iconUrl>
     <releaseNotes>http://www.strokesplus.com/changelog/</releaseNotes>
