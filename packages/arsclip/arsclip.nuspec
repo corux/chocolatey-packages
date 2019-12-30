@@ -19,9 +19,6 @@ This window can be triggered by a hotkey, holding right-click, a special trigger
     <releaseNotes>http://www.joejoesoft.com/vcms/97/</releaseNotes>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/corux/chocolatey-packages/4bc9497f5c382434c7a47f2cbb9c33be8e8d1565/icons/arsclip.png</iconUrl>
-    <dependencies>
-      <dependency id="chocolatey" version="0.9.10" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
