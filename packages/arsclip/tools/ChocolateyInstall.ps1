@@ -1,7 +1,7 @@
 ﻿$packageName  = 'arsclip'
 $tempDir      = Join-Path $env:TEMP $packageName
-$url          = 'https://www.joejoesoft.com/cms/file.php?f=userupload/8/files/acv528.zip'
-$checksum     = '563df68019ed8dd25b25ed93148bfe0ea0f9427d242be5e736c49f954a380d4f'
+$url          = 'https://www.joejoesoft.com/cms/file.php?f=userupload/8/files/acv530.zip'
+$checksum     = '9c1120b5b267be8a255567eb6a2b509ca0949df03dd2cf56b4d56b3280cff505'
 $fileLocation = Join-Path $tempDir 'setup.exe'
 $silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 
