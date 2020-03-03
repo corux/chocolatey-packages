@@ -1,7 +1,14 @@
-test_script:
+environment:
+  ApiKey:
+    secure: ZarUCOWmMLE9vG5c+dlg6ZU2LS2f+fWpzhQyrhVzOsLau0ktanxrav+I7wMN6Uc0
+
+build_script:
   - ps: dir -recurse -include *.nuspec | %{choco pack $_.FullName}
+
+test: off
+
+deploy_script:
+  - ps: dir -recurse -include *.nupkg | %{choco push --source https://push.chocolatey.org/ --apikey $env:ApiKey $_.FullName}
 
 artifacts:
   - path: '**\*.nupkg'
-  
-build: off
